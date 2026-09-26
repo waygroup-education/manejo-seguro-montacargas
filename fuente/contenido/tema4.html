@@ -1,0 +1,111 @@
+      <header class="ova-screen__head" data-reveal>
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Actuar a tiempo: qué hacer si algo sale mal</h1>
+      </header>
+
+      <div data-reveal style="margin-bottom:40px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg); position:relative; overflow:hidden;">
+        <h3 style="font-family:var(--font-mono); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--c-acento); margin:0 0 16px; display:flex; align-items:center; gap:10px;"><iconify-icon icon="mdi:comment-question-outline" style="font-size:1.1rem;"></iconify-icon> Situación de partida</h3>
+        <p style="margin:0; font-size:1.02rem; line-height:1.6;">Un operador percibe que el montacargas empieza a inclinarse hacia un costado mientras gira con una carga elevada. Tiene solo un instante para reaccionar, y lo que haga en ese instante depende de lo que ya sabía antes de subirse: ¿cuál es el instinto natural en ese momento, y por qué la instrucción técnica dice justo lo contrario? El instinto de saltar para alejarse de un montacargas que vuelca es exactamente lo que puede convertir un incidente en una tragedia. La reacción correcta contradice ese instinto, y por eso hay que conocerla de antemano, no improvisarla en el momento.</p>
+      </div>
+
+      <!-- Ilustración de apertura (agente ilustrador, guion en insumos/ILUSTRACIONES.md · tema4). Capa editorial. -->
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <picture>
+          <source media="(max-width: 600px)" srcset="assets/img/curso/ilustracion-reaccion-vuelco-movil.svg" />
+          <img src="assets/img/curso/ilustracion-reaccion-vuelco.svg" alt="Dos montacargas vistos de frente, con la carga elevada, se inclinan hacia el mismo costado. En el primero, el instinto natural: el operador salta fuera de la cabina y una señal de prohibido lo tacha, no saltar. En el segundo, la reacción correcta: el operador se queda dentro, sujeto al volante con las dos manos, con los pies dentro y el cuerpo inclinado en dirección contraria al vuelco." />
+        </picture>
+      </figure>
+
+      <!-- ════ Sección {{NUM}}.1 · vuelco-caida ════ -->
+      <section class="ova-seccion" id="vuelco-caida" data-reveal>
+        <h2 class="ova-seccion__titulo">Si algo sale mal: qué hacer ante un vuelco o una caída de carga</h2>
+        <p class="ova-seccion__lead">Te invitamos a ver el siguiente video, el cual expone qué hacer si el montacargas empieza a volcar o si ocurre una caída de carga.</p>
+      </section>
+
+      <!-- PENDIENTE: Video 3 (el DI: "(Vincular video 3)."). Sin URL en el DI ni en la planilla de videos del cliente
+           (ERRORES-ORIGEN-2026-09-24 · M1). Se reemplaza por el iframe de YouTube cuando llegue el enlace. -->
+      <div class="ova-video" data-reveal>
+        <div style="padding:56px 24px; border:1px dashed var(--border-c); background:var(--bg-muted); border-radius:var(--r-lg); display:flex; flex-direction:column; align-items:center; gap:12px;">
+          <iconify-icon icon="mdi:video-off-outline" style="font-size:2.4rem; color:var(--text-mut);"></iconify-icon>
+          <span style="color:var(--text-mut); font-size:.9rem;">Pendiente: Video 3</span>
+        </div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.2 · detener-operacion ════ -->
+      <section class="ova-seccion" id="detener-operacion" data-reveal>
+        <h2 class="ova-seccion__titulo">Cuándo no se autoriza o se detiene la operación</h2>
+        <p class="ova-seccion__lead">Hay condiciones que impiden autorizar o continuar la operación de un montacargas:</p>
+      </section>
+
+      <div class="ova-stepper" data-reveal>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>01</span></div>
+          <div class="ova-step__card"><h3>Primera condición: fallas críticas de seguridad</h3><p>Cualquier desperfecto detectado en la inspección preoperacional que comprometa la seguridad del equipo o del operador, tales como fallas en los frenos, luces, alarma de reversa o cinturones de seguridad.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>02</span></div>
+          <div class="ova-step__card"><h3>Segunda condición: operador no certificado</h3><p>La falta de certificación vigente del operador asignado para el equipo, sin excepción alguna por urgencias operativas o de cobertura de turnos.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>03</span></div>
+          <div class="ova-step__card"><h3>Tercera condición: exceso de carga</h3><p>Intentar manipular o transportar una carga que supere la capacidad nominal del equipo, considerando la altura específica a la que se requiere elevar.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>04</span></div>
+          <div class="ova-step__card"><h3>Cuarta condición: entorno de trabajo inseguro</h3><p>Operar en áreas con condiciones de riesgo que afecten la visibilidad o la estabilidad del piso, tales como derrames, iluminación deficiente o superficies irregulares que no estén debidamente señalizadas.</p></div>
+        </div>
+      </div>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Ninguna de estas condiciones se resuelve a criterio de quien tiene prisa por completar la tarea. Detener o negar la autorización de una operación por cualquiera de estas razones es exactamente la decisión que el procedimiento espera del supervisor.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.3 · emergencias ════ -->
+      <section class="ova-seccion" id="emergencias" data-reveal>
+        <h2 class="ova-seccion__titulo">Tabla de referencia rápida: qué hacer ante una emergencia</h2>
+      </section>
+
+      <div class="ova-tabla" data-reveal>
+        <table>
+          <thead>
+            <tr>
+              <th>Situación</th>
+              <th>Qué indica</th>
+              <th class="is-highlight">Qué se debe hacer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>El montacargas empieza a volcar</td>
+              <td>El centro de gravedad salió del triángulo de estabilidad.</td>
+              <td>Sujetarse al volante, mantener los pies dentro, inclinarse en dirección contraria, no saltar.</td>
+            </tr>
+            <tr>
+              <td>Caída de carga</td>
+              <td>La carga no estaba correctamente asegurada o se maniobró de forma brusca.</td>
+              <td>Alejar a las personas de la zona y detener el equipo antes de cualquier acción correctiva.</td>
+            </tr>
+            <tr>
+              <td>Falla en la inspección preoperacional</td>
+              <td>El equipo no está en condiciones seguras de uso.</td>
+              <td>Retirar el equipo de servicio hasta que la falla se corrija.</td>
+            </tr>
+            <tr>
+              <td>Operador sin certificación vigente</td>
+              <td>La persona no cuenta con la competencia laboral exigida.</td>
+              <td>Negar la autorización de operación, sin excepción.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Pódcast (el DI: "(Vincular pódcast)."). La planilla de videos del cliente (2026-09-24) lo asigna al video
+           de YouTube «Síntesis del curso Manejo Seguro de Montacargas»; va como video, igual que en TSA y RE. -->
+      <h3 style="margin:48px 0 16px;" data-reveal>Pódcast</h3>
+      <p data-reveal>Te invitamos a escuchar el siguiente pódcast, el cual refuerza los aprendizajes clave del curso.</p>
+      <div class="ova-video" data-reveal style="margin-top:16px;">
+        <div class="ova-video__frame" style="position:relative; padding-top:56.25%; border-radius:var(--r-lg); overflow:hidden; background:#000;">
+          <iframe src="https://www.youtube.com/embed/SYVEvzDhDIU" title="Pódcast · Síntesis del curso Manejo Seguro de Montacargas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute; inset:0; width:100%; height:100%;"></iframe>
+        </div>
+      </div>

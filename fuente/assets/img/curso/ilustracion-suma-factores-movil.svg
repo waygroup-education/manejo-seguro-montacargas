@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 930" width="600" height="930" role="img"
+     aria-label="Arriba, de forma aislada, tres bloques separados —manejo de la carga, velocidad en giros y frenado intempestivo— y ninguno llega a la delgada línea que separa la maniobra segura del vuelco inminente. Abajo, los mismos tres bloques apilados, en naranja: juntos pasan la línea. Es el efecto combinatorio.">
+  <!-- Ilustración explicativa · Waygroup · Manejo Seguro de Montacargas, tema 2 (apertura)
+       VARIANTE MÓVIL de ilustracion-suma-factores.svg (1200×470): mismo guion, mismas formas
+       y colores; las dos escenas una sobre otra, con la misma línea a la misma altura del
+       suelo, para que los rótulos se lean a 320 px de columna (principio 8 de Waygroup).
+       Concepto (DI 2.2): cada uno de estos factores, de forma aislada, podría no ser suficiente
+       para desplazar el montacargas fuera de su triángulo de estabilidad; el verdadero peligro
+       radica en el efecto combinatorio, la delgada línea que separa una maniobra segura de un
+       vuelco inminente. Factores: los tres títulos del carrusel de 2.2.
+       Guion en insumos/ILUSTRACIONES.md. Naranja (acento del preset vital) = la combinación.
+       No dibuja escenarios de giro, triángulo de estabilidad ni centro de gravedad (Figura 7)
+       ni categorías de peligro (Figura 6). Sin cifras: las alturas no son valores. -->
+  <defs>
+    <linearGradient id="ilu-suma-factores-m-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EEF4F8"/>
+    </linearGradient>
+    <pattern id="ilu-suma-factores-m-puntos-naranja" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.2" fill="#F97316"/>
+    </pattern>
+    <pattern id="ilu-suma-factores-m-puntos-navy" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.2" fill="#082F49"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="930" rx="20" fill="url(#ilu-suma-factores-m-fondo)"/>
+
+  <!-- Detalles de la familia del diseñador: tramas de puntos y un aro -->
+  <rect x="28" y="30" width="72" height="54" fill="url(#ilu-suma-factores-m-puntos-naranja)" opacity=".45"/>
+  <rect x="500" y="30" width="72" height="54" fill="url(#ilu-suma-factores-m-puntos-navy)" opacity=".25"/>
+  <circle cx="64" cy="492" r="9" fill="none" stroke="#F97316" stroke-width="3" opacity=".7"/>
+
+  <!-- Separador entre las dos escenas -->
+  <line x1="96" y1="492" x2="540" y2="492" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4 10" stroke-linecap="round"/>
+
+  <!-- Suelo -->
+  <line x1="44" y1="320" x2="556" y2="320" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+  <line x1="44" y1="820" x2="556" y2="820" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ══════ DE FORMA AISLADA ══════ -->
+    <g>
+      <rect x="65.0" y="224" width="130" height="96" rx="7" fill="#082F49"/>
+      <rect x="65.0" y="224" width="130" height="9" rx="7" fill="#1E4763" opacity=".8"/>
+      <rect x="104.0" y="250.0" width="28" height="17" rx="2" fill="#F8FAFC"/>
+      <rect x="104.0" y="270.0" width="28" height="17" rx="2" fill="#F8FAFC"/>
+      <line x1="99.0" y1="292.0" x2="135.0" y2="292.0" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+      <line x1="149.0" y1="292.0" x2="149.0" y2="263.0" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+      <path d="M140.0 265.0 L149.0 251.0 L158.0 265.0 Z" fill="#F8FAFC" stroke="#F8FAFC" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="235.0" y="232" width="130" height="88" rx="7" fill="#082F49"/>
+      <rect x="235.0" y="232" width="130" height="9" rx="7" fill="#1E4763" opacity=".8"/>
+      <path d="M319.0 281.0 A19 19 0 1 1 299.0 262.0" fill="none" stroke="#F8FAFC" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M297.0 251.0 L312.0 262.0 L297.0 273.0 Z" fill="#F8FAFC" stroke="#F8FAFC" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="405.0" y="240" width="130" height="80" rx="7" fill="#082F49"/>
+      <rect x="405.0" y="240" width="130" height="9" rx="7" fill="#1E4763" opacity=".8"/>
+      <circle cx="470.0" cy="283.0" r="15" fill="none" stroke="#F8FAFC" stroke-width="5"/>
+      <path d="M446.0 267.0 A24 24 0 0 0 446.0 299.0" fill="none" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+      <path d="M494.0 267.0 A24 24 0 0 1 494.0 299.0" fill="none" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+      <line x1="470.0" y1="275.0" x2="470.0" y2="285.0" stroke="#F8FAFC" stroke-width="4.5" stroke-linecap="round"/>
+      <circle cx="470.0" cy="291.0" r="2.6" fill="#F8FAFC"/>
+    </g>
+
+  <!-- La delgada línea, en las dos escenas a la misma altura del suelo -->
+  <line x1="40" y1="170" x2="560" y2="170" stroke="#082F49" stroke-width="3" stroke-linecap="round"/>
+  <line x1="40" y1="670" x2="560" y2="670" stroke="#082F49" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ══════ EFECTO COMBINATORIO (delante de la línea) ══════ -->
+    <g>
+      <rect x="125.0" y="724" width="130" height="96" rx="7" fill="#F97316"/>
+      <rect x="125.0" y="724" width="130" height="9" rx="7" fill="#FDBA74" opacity=".8"/>
+      <rect x="164.0" y="750.0" width="28" height="17" rx="2" fill="#F8FAFC"/>
+      <rect x="164.0" y="770.0" width="28" height="17" rx="2" fill="#F8FAFC"/>
+      <line x1="159.0" y1="792.0" x2="195.0" y2="792.0" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+      <line x1="209.0" y1="792.0" x2="209.0" y2="763.0" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+      <path d="M200.0 765.0 L209.0 751.0 L218.0 765.0 Z" fill="#F8FAFC" stroke="#F8FAFC" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="125.0" y="630" width="130" height="88" rx="7" fill="#F97316"/>
+      <rect x="125.0" y="630" width="130" height="9" rx="7" fill="#FDBA74" opacity=".8"/>
+      <path d="M209.0 679.0 A19 19 0 1 1 189.0 660.0" fill="none" stroke="#F8FAFC" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M187.0 649.0 L202.0 660.0 L187.0 671.0 Z" fill="#F8FAFC" stroke="#F8FAFC" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="125.0" y="544" width="130" height="80" rx="7" fill="#F97316"/>
+      <rect x="125.0" y="544" width="130" height="9" rx="7" fill="#FDBA74" opacity=".8"/>
+      <circle cx="190.0" cy="587.0" r="15" fill="none" stroke="#F8FAFC" stroke-width="5"/>
+      <path d="M166.0 571.0 A24 24 0 0 0 166.0 603.0" fill="none" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+      <path d="M214.0 571.0 A24 24 0 0 1 214.0 603.0" fill="none" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+      <line x1="190.0" y1="579.0" x2="190.0" y2="589.0" stroke="#F8FAFC" stroke-width="4.5" stroke-linecap="round"/>
+      <circle cx="190.0" cy="595.0" r="2.6" fill="#F8FAFC"/>
+    </g>
+
+  <!-- Rótulos: solo palabras literales del DI -->
+  <g font-family="'Space Grotesk', Inter, 'Helvetica Neue', Arial, sans-serif">
+    <g text-anchor="end">
+      <text x="560" y="156" font-size="28" font-weight="700" fill="#082F49">vuelco inminente</text>
+      <text x="560" y="208" font-size="28" font-weight="600" fill="#334155">maniobra segura</text>
+      <text x="560" y="656" font-size="28" font-weight="700" fill="#082F49">vuelco inminente</text>
+      <text x="560" y="708" font-size="28" font-weight="600" fill="#334155">maniobra segura</text>
+    </g>
+    <g text-anchor="middle" font-size="28" font-weight="600" fill="#334155">
+      <text x="130" y="356">Manejo de</text><text x="130" y="388">la carga</text>
+      <text x="300" y="356">Velocidad</text><text x="300" y="388">en giros</text>
+      <text x="470" y="356">Frenado</text><text x="470" y="388">intempestivo</text>
+    </g>
+    <g text-anchor="middle" font-size="34" font-weight="700" fill="#082F49">
+      <text x="300" y="448">de forma aislada</text>
+      <text x="300" y="892">efecto combinatorio</text>
+    </g>
+  </g>
+</svg>

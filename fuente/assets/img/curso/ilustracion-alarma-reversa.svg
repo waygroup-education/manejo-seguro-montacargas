@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img"
+     aria-label="Dos montacargas iguales retroceden hacia un peatón. En el primero, la alarma de reversa suena: sus ondas llegan al peatón, que se ha vuelto hacia el equipo. En el segundo, la alarma de reversa está dañada y no suena: el peatón sigue caminando de espaldas, en la trayectoria del montacargas, sin ninguna advertencia.">
+  <!-- Ilustración explicativa · Waygroup · Manejo Seguro de Montacargas, tema 3 (apertura)
+       Concepto (DI 3, Situación de partida): «Al retroceder, la visibilidad del operador es mínima.
+       La alarma de reversa es, precisamente, la señal que alerta a los peatones para que se pongan
+       a salvo. Postergar este reporte […] deja a cualquier persona a su alrededor, completamente
+       vulnerable y sin una advertencia vital.» Cierre en 3.4: «…una alarma de reversa dañada».
+       Guion en insumos/ILUSTRACIONES.md. Naranja (acento del preset vital) = la alarma de reversa.
+       No dibuja claxon ni cruces (Figuras 9 y 11), EPP ni manejo de la carga (Figura 10).
+       Familia: ilustracion-reparto-peso.svg (tema 1); el montacargas es el mismo, sin carga. -->
+  <defs>
+    <linearGradient id="ilu-alarma-reversa-fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EEF4F8"/>
+    </linearGradient>
+    <pattern id="ilu-alarma-reversa-puntos-naranja" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.2" fill="#F97316"/>
+    </pattern>
+    <pattern id="ilu-alarma-reversa-puntos-navy" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.2" fill="#082F49"/>
+    </pattern>
+
+    <!-- El montacargas del tema 1 (mismas formas, origen en 680,96), sin carga, con operador y
+         con la alarma de reversa en lo alto de la parte posterior. Mira a la izquierda: al
+         retroceder avanza hacia la derecha. -->
+    <g id="ilu-alarma-reversa-montacargas">
+      <!-- Operador sentado (detrás del chasis) -->
+      <circle cx="258" cy="66" r="13" fill="#334155"/>
+      <path d="M244 88 Q244 80 252 80 L266 80 Q274 80 274 88 L274 142 L244 142 Z" fill="#334155"/>
+      <line x1="248" y1="94" x2="222" y2="118" stroke="#334155" stroke-width="9" stroke-linecap="round"/>
+      <!-- Techo protector -->
+      <path d="M168 150 L188 38 L296 38 L304 118" fill="none" stroke="#082F49" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+      <!-- Asiento -->
+      <path d="M274 148 L274 104 Q274 96 282 96 L290 96 Q298 96 298 104 L298 148 Z" fill="#1E4763"/>
+      <!-- Chasis -->
+      <path d="M142 204 L142 158 Q142 150 150 150 L316 150 L316 204 Z" fill="#082F49"/>
+      <!-- Contrapeso (zona posterior) -->
+      <path d="M310 116 L370 116 Q400 116 402 146 L404 194 Q404 206 392 206 L310 206 Z" fill="#1E4763"/>
+      <path d="M310 116 L370 116 Q384 116 392 122 L310 122 Z" fill="#3B6A8A" opacity=".8"/>
+      <!-- Mástil, porta-horquillas y horquillas vacías -->
+      <rect x="124" y="0" width="18" height="222" rx="3" fill="#082F49"/>
+      <rect x="112" y="130" width="14" height="94" rx="3" fill="#0B1B26"/>
+      <rect x="0" y="216" width="126" height="8" rx="3" fill="#082F49"/>
+      <!-- Ruedas -->
+      <circle cx="182" cy="198" r="36" fill="#0B1B26" stroke="#F1F6F9" stroke-width="7"/>
+      <circle cx="182" cy="198" r="13" fill="#CBD5E1"/>
+      <circle cx="360" cy="206" r="28" fill="#0B1B26" stroke="#F1F6F9" stroke-width="7"/>
+      <circle cx="360" cy="206" r="10" fill="#CBD5E1"/>
+      <!-- Alarma de reversa (lo único en naranja) -->
+      <rect x="298" y="40" width="20" height="24" rx="4" fill="#F97316"/>
+      <path d="M316 44 L338 32 L338 72 L316 60 Z" fill="#F97316" stroke="#F97316" stroke-width="3" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Peatón de perfil caminando, mirando a la derecha; pies en 0,0 -->
+    <g id="ilu-alarma-reversa-peaton-camina">
+      <line x1="-5" y1="-50" x2="-20" y2="-4" stroke="#334155" stroke-width="11" stroke-linecap="round"/>
+      <line x1="5" y1="-50" x2="20" y2="-4" stroke="#334155" stroke-width="11" stroke-linecap="round"/>
+      <line x1="-3" y1="-88" x2="-18" y2="-62" stroke="#334155" stroke-width="9" stroke-linecap="round"/>
+      <path d="M-13 -90 Q-13 -98 -5 -98 L7 -98 Q15 -98 15 -90 L13 -48 L-11 -48 Z" fill="#334155"/>
+      <line x1="4" y1="-88" x2="16" y2="-60" stroke="#334155" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="2" cy="-112" r="12" fill="#334155"/>
+      <circle cx="13" cy="-110" r="4" fill="#334155"/>
+    </g>
+
+    <!-- Peatón de perfil, de pie, vuelto hacia la izquierda (hacia el montacargas); pies en 0,0 -->
+    <g id="ilu-alarma-reversa-peaton-atento">
+      <line x1="-2" y1="-50" x2="-8" y2="-4" stroke="#334155" stroke-width="11" stroke-linecap="round"/>
+      <line x1="6" y1="-50" x2="10" y2="-4" stroke="#334155" stroke-width="11" stroke-linecap="round"/>
+      <path d="M-12 -90 Q-12 -98 -4 -98 L8 -98 Q16 -98 16 -90 L14 -48 L-10 -48 Z" fill="#334155"/>
+      <line x1="0" y1="-88" x2="-4" y2="-56" stroke="#334155" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="-2" cy="-112" r="12" fill="#334155"/>
+      <circle cx="-13" cy="-110" r="4" fill="#334155"/>
+    </g>
+
+    <!-- Flecha de marcha atrás, gris, hacia la derecha -->
+    <g id="ilu-alarma-reversa-marcha">
+      <line x1="0" y1="0" x2="70" y2="0" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 12"/>
+      <path d="M72 -11 L90 0 L72 11 Z" fill="#94A3B8" stroke="#94A3B8" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="440" rx="20" fill="url(#ilu-alarma-reversa-fondo)"/>
+
+  <!-- Detalles de la familia del diseñador: tramas de puntos y un aro -->
+  <rect x="46" y="44" width="90" height="72" fill="url(#ilu-alarma-reversa-puntos-naranja)" opacity=".45"/>
+  <rect x="1070" y="44" width="90" height="72" fill="url(#ilu-alarma-reversa-puntos-navy)" opacity=".25"/>
+  <circle cx="560" cy="70" r="9" fill="none" stroke="#F97316" stroke-width="3" opacity=".7"/>
+
+  <!-- Separador entre las dos escenas -->
+  <line x1="600" y1="80" x2="600" y2="390" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4 10" stroke-linecap="round"/>
+
+  <!-- Suelo -->
+  <line x1="52" y1="330" x2="552" y2="330" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+  <line x1="648" y1="330" x2="1148" y2="330" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ══════ ALARMA DE REVERSA: suena, y el peatón recibe el aviso ══════ -->
+  <g>
+    <use href="#ilu-alarma-reversa-montacargas" transform="translate(56 147.5) scale(.78)"/>
+    <use href="#ilu-alarma-reversa-marcha" transform="translate(392 356)"/>
+    <!-- Las ondas de la alarma llegan al peatón -->
+    <g fill="none" stroke="#F97316" stroke-width="6" stroke-linecap="round">
+      <path d="M333.3 173.1 A26 26 0 0 1 333.3 202.9"/>
+      <path d="M353 159.3 A50 50 0 0 1 353 216.7"/>
+      <path d="M372.6 145.5 A74 74 0 0 1 372.6 230.5"/>
+      <path d="M392.3 131.7 A98 98 0 0 1 392.3 244.3"/>
+    </g>
+    <use href="#ilu-alarma-reversa-peaton-atento" transform="translate(506 330)"/>
+  </g>
+
+  <!-- ══════ ALARMA DE REVERSA DAÑADA: no suena, y el peatón no se entera ══════ -->
+  <g>
+    <use href="#ilu-alarma-reversa-montacargas" transform="translate(656 147.5) scale(.78)"/>
+    <use href="#ilu-alarma-reversa-marcha" transform="translate(992 356)"/>
+    <!-- Sin ondas: la alarma calla -->
+    <g stroke="#94A3B8" stroke-width="5" stroke-linecap="round">
+      <line x1="932" y1="180" x2="950" y2="198"/>
+      <line x1="950" y1="180" x2="932" y2="198"/>
+    </g>
+    <use href="#ilu-alarma-reversa-peaton-camina" transform="translate(1092 330)"/>
+  </g>
+
+  <!-- Rótulos: solo palabras literales del DI («alarma de reversa», 3; «alarma de reversa dañada», 3.4) -->
+  <g font-family="'Space Grotesk', Inter, 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <text x="300" y="410" font-size="30" font-weight="700" fill="#082F49">alarma de reversa</text>
+    <text x="900" y="410" font-size="30" font-weight="700" fill="#082F49">alarma de reversa dañada</text>
+  </g>
+</svg>

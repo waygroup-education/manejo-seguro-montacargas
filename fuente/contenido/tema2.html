@@ -1,0 +1,186 @@
+      <header class="ova-screen__head" data-reveal>
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Vuelco: cómo identificarlo y prevenirlo</h1>
+      </header>
+
+      <div data-reveal style="margin-bottom:40px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg); position:relative; overflow:hidden;">
+        <h3 style="font-family:var(--font-mono); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--c-acento); margin:0 0 16px; display:flex; align-items:center; gap:10px;"><iconify-icon icon="mdi:comment-question-outline" style="font-size:1.1rem;"></iconify-icon> Situación de partida</h3>
+        <p style="margin:0; font-size:1.02rem; line-height:1.6;">Un operador necesita cruzar la bodega con una carga más alta de lo habitual. Para ahorrar tiempo, decide tomar una curva a velocidad normal, confiando en que ya ha hecho ese giro muchas veces sin inconvenientes. Esto nos invita a una reflexión clave: ¿Por qué esta vez el resultado podría ser diferente?</p>
+        <p style="margin:14px 0 0; font-size:1.02rem; line-height:1.6;">Que una maniobra peligrosa no haya causado un accidente en el pasado no significa que sea segura; solo significa que, hasta ahora, la suerte o las condiciones no han superado el límite. En esta ocasión, la altura de la carga eleva el centro de gravedad, reduciendo la estabilidad del montacargas. Ese mismo giro que antes parecía inofensivo, hoy puede superar el triángulo de estabilidad y provocar un volcamiento inminente.</p>
+      </div>
+
+      <!-- Ilustración de apertura (agente ilustrador, guion en insumos/ILUSTRACIONES.md · tema2). Capa editorial. -->
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <picture>
+          <source media="(max-width: 600px)" srcset="assets/img/curso/ilustracion-suma-factores-movil.svg" />
+          <img src="assets/img/curso/ilustracion-suma-factores.svg" alt="Una delgada línea separa la maniobra segura, abajo, del vuelco inminente, arriba. De forma aislada, tres bloques —manejo de la carga, velocidad en giros y frenado intempestivo— quedan cada uno por debajo de la línea. Apilados, los mismos tres bloques la pasan: es el efecto combinatorio." />
+        </picture>
+      </figure>
+
+      <!-- ════ Sección {{NUM}}.1 · peligros ════ -->
+      <section class="ova-seccion" id="peligros" data-reveal>
+        <h2 class="ova-seccion__titulo">Qué peligros existen en la operación de un montacargas</h2>
+        <p class="ova-seccion__lead">Antes de profundizar, es importante diferenciar dos términos clave que aparecerán con frecuencia en este tema y que suelen confundirse, aunque tienen significados diferentes:</p>
+      </section>
+
+      <!-- El DI: "Comparativo" -->
+      <div class="ova-vs" data-reveal>
+        <div class="ova-vs__card">
+          <h3>PELIGRO</h3>
+          <p>Es el factor intrínseco o la condición capaz de causar daño, cuya existencia es independiente de la presencia de personas a su alrededor. En el caso de un montacargas, el peligro radica en elementos propios de su operación, tales como su peso masivo, la variabilidad de su centro de gravedad o el mantenimiento de una carga elevada. Esta condición peligrosa permanece inalterable aun cuando el equipo se encuentre apagado o sin operador.</p>
+        </div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt">
+          <h3>RIESGO</h3>
+          <p>Es la combinación de dos factores: la probabilidad de que un peligro se materialice y la gravedad de sus consecuencias. En el caso de un montacargas, cuando está apagado y estacionado, el peligro latente es el mismo que cuando está en movimiento, debido a su gran peso y diseño. Sin embargo, el nivel de riesgo cambia por completo si el montacargas gira a alta velocidad con una carga elevada.</p>
+        </div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">A continuación, conoceremos algunos peligros identificados:</p>
+      <div class="ova-acordeon" data-reveal style="margin-top:16px;">
+        <div class="ova-acordeon__item is-open">
+          <button class="ova-acordeon__head"><span><span class="num">01</span> <strong>Vuelco (lateral o frontal)</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Es el accidente más grave y crítico. Ocurre por giros bruscos, exceso de velocidad o terrenos inestables. En caso de siniestro, el mayor riesgo para el operador es intentar saltar del equipo; la recomendación vital es sujetarse firmemente al volante, apoyar los pies con fuerza y permanecer dentro de la cabina protectora.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">02</span> <strong>Atropello de peatones</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Este peligro se intensifica en cruces, esquinas ciegas y pasillos con alta afluencia de personal. La visibilidad del operador suele verse severamente reducida por el volumen de la carga transportada, lo que exige máxima precaución y el uso constante de señales acústicas y visuales.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">03</span> <strong>Caída de objetos y cargas</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">La pérdida de estabilidad de la mercancía suele ser consecuencia de un apilamiento incorrecto, la falta de sujeción o maniobras e inclinaciones bruscas. Este factor pone en riesgo inmediato tanto al personal circundante como a la integridad de los productos.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">04</span> <strong>Colisión estructural</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Los impactos contra estanterías (<em>racks</em>), infraestructuras del almacén u otros vehículos en movimiento, no solo dañan las instalaciones, sino que pueden provocar el colapso de las estructuras y desestabilizar por completo el montacargas.</div></div>
+        </div>
+      </div>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:lightbulb-on"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Ten en cuenta</span><p style="margin:8px 0 0;">Cada uno de estos peligros tiene un origen diferente; por lo tanto, prevenir el vuelco no garantiza el control automático de los demás.</p></div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">Recordemos que los peligros más comunes en la operación de montacargas se agrupan en unas pocas categorías:</p>
+      <figure class="ova-figura ova-figura--plana" data-reveal style="margin-top:16px;">
+        <img src="assets/img/curso/figura-06-categorias-peligro.webp" alt="Categorías de peligro en la operación de montacargas: estabilidad del equipo (vuelco), interacción con personas (atropello), manejo de la carga (caída) y entorno de circulación (colisión)" />
+      </figure>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Identificar la categoría de riesgo de una tarea permite implementar las medidas de control correctas.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.2 · combinacion-vuelco ════ -->
+      <section class="ova-seccion" id="combinacion-vuelco" data-reveal>
+        <h2 class="ova-seccion__titulo">La combinación que más provoca un vuelco</h2>
+        <p class="ova-seccion__lead">Los vuelcos de montacargas rara vez se deben a una única causa extrema. Por lo general, son el resultado de la combinación simultánea de múltiples factores moderados. Entre las causas más comunes se encuentran:</p>
+      </section>
+
+      <div class="ova-carrusel" data-reveal style="margin-top:0;">
+        <div class="ova-carrusel__track-wrap"><div class="ova-carrusel__track">
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:arrow-collapse-up" style="font-size:2.4rem; color:var(--c-acento);"></iconify-icon><h4 style="margin-top:12px;">Manejo de la carga</h4><p style="color:var(--text-mut); font-size:.9rem;">Transportar la carga a una altura superior a la recomendada eleva el centro de gravedad del vehículo, comprometiendo gravemente su equilibrio.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:rotate-right" style="font-size:2.4rem; color:var(--c-acento);"></iconify-icon><h4 style="margin-top:12px;">Velocidad en giros</h4><p style="color:var(--text-mut); font-size:.9rem;">Efectuar virajes a una velocidad excesiva para las condiciones de la maniobra reduce drásticamente la estabilidad lateral.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:car-brake-alert" style="font-size:2.4rem; color:var(--c-acento);"></iconify-icon><h4 style="margin-top:12px;">Frenado intempestivo</h4><p style="color:var(--text-mut); font-size:.9rem;">Detener la marcha de forma brusca mientras se sostiene una carga elevada transfiere el peso hacia adelante, multiplicando el riesgo de volcadura.</p></div>
+        </div></div>
+        <div class="ova-carrusel__nav"><div class="ova-carrusel__dots"></div><div class="ova-carrusel__arrows"><button class="ova-carrusel__arrow" data-ova-carrusel-prev><iconify-icon icon="mdi:arrow-left"></iconify-icon></button><button class="ova-carrusel__arrow" data-ova-carrusel-next><iconify-icon icon="mdi:arrow-right"></iconify-icon></button></div></div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">Cada uno de estos factores, de forma aislada, podría no ser suficiente para desplazar el montacargas fuera de su triángulo de estabilidad. Sin embargo, el verdadero peligro radica en el efecto combinatorio: transportar una carga ligeramente más alta de lo debido, junto con un giro un poco más cerrado de lo habitual, suele ser la delgada línea que separa una maniobra segura de un vuelco inminente.</p>
+      <figure class="ova-figura ova-figura--plana" data-reveal style="margin-top:16px;">
+        <img src="assets/img/curso/figura-07-escenarios-giro.webp" alt="Escenarios de giro y estabilidad: carga baja a velocidad normal, estable; carga alta a velocidad normal, precaución; carga alta con giro cerrado a mayor velocidad, peligro. Debajo de cada uno, el centro de gravedad dentro, en el límite o fuera del triángulo de estabilidad" />
+      </figure>
+      <p data-reveal style="margin-top:24px;">Por lo tanto, la recomendación técnica no se limita a cumplir de forma aislada con los límites de velocidad o de altura de la carga. El verdadero enfoque preventivo exige reducir la velocidad de manera proporcional cuando la carga sea más alta de lo habitual y evitar giros cerrados bajo estas condiciones, dado que el margen de estabilidad disminuye críticamente con cada factor de riesgo que se suma.</p>
+
+      <div class="ova-callout ova-callout--warning" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:head-question-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Para reflexionar</span>
+          <!-- «De cada 4 … aproximadamente 1», dibujado: una persona en el color del callout y tres en gris (principio 6) -->
+          <div aria-hidden="true" style="display:flex; gap:2px; margin:12px 0 4px; font-size:3.2rem; line-height:1;"><iconify-icon icon="mdi:account" style="color:var(--warning);"></iconify-icon><iconify-icon icon="mdi:account" style="color:var(--text-mut); opacity:.45;"></iconify-icon><iconify-icon icon="mdi:account" style="color:var(--text-mut); opacity:.45;"></iconify-icon><iconify-icon icon="mdi:account" style="color:var(--text-mut); opacity:.45;"></iconify-icon></div>
+          <p style="margin:8px 0 0;">De cada 4 muertes asociadas al uso de montacargas, aproximadamente 1 se debe a un vuelco: es la causa individual más frecuente, por encima de choques, caídas de carga o atropellos (NIOSH, 2001, publicación DHHS N.º 2001-109).</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.3 · entorno ════ -->
+      <section class="ova-seccion" id="entorno" data-reveal>
+        <h2 class="ova-seccion__titulo">Peligros del entorno que agravan la operación</h2>
+        <p class="ova-seccion__lead">La operación de un montacargas casi nunca ocurre en un espacio vacío; se desarrolla en entornos dinámicos y complejos, donde las condiciones del espacio influyen directamente en la seguridad:</p>
+      </section>
+
+      <div class="ova-acordeon" data-reveal style="margin-top:0;">
+        <div class="ova-acordeon__item is-open">
+          <button class="ova-acordeon__head"><span><span class="num">01</span> <strong>Cruces e intersecciones</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Los cruces e intersecciones en una bodega son zonas de alto riesgo debido a la visibilidad limitada que provocan las estanterías y el volumen de la carga. Esta falta de visibilidad puede sorprender a los peatones y reducir el tiempo de reacción del conductor. Por esta razón, es obligatorio el uso del claxon al aproximarse a cualquier esquina o cruce, alertando a las personas cercanas para que se detengan antes de que coincidan en el mismo trayecto.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">02</span> <strong>Rampas</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Las rampas incrementan los riesgos de la operación y exigen maniobras específicas. La dirección de la carga debe ajustarse, según si el montacargas sube o baja; de esta manera, se garantiza una visibilidad óptima y se evita que la mercancía se deslice. Circular en el sentido incorrecto puede provocar la caída de la carga desde las horquillas o bloquear por completo la vista del camino, aumentando la probabilidad de un accidente.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">03</span> <strong>Peatones y otros vehículos</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">La presencia de peatones y de otros vehículos de la planta, como los camiones de carga, requiere la máxima atención del operador. Es fundamental mantener una distancia de seguridad constante y ceder el paso cuando corresponda. El operador nunca debe asumir que el montacargas tiene prioridad por el simple hecho de ser un equipo de trabajo pesado; la prevención y la cortesía en la vía son prioridades absolutas.</div></div>
+        </div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.4 · tipos-carga ════ -->
+      <section class="ova-seccion" id="tipos-carga" data-reveal>
+        <h2 class="ova-seccion__titulo">Tipos de carga y sus riesgos específicos</h2>
+        <p class="ova-seccion__lead">El nivel de riesgo varía, según la naturaleza de cada carga, lo que exige adaptar el método de transporte a sus especificaciones técnicas.</p>
+      </section>
+
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <img src="assets/img/curso/figura-08-tipos-carga.webp" alt="Tres tipos de carga en un montacargas: carga estándar, transportada baja y con el mástil inclinado hacia atrás; carga frágil, con giros amplios y suaves; y carga pesada, cerca del límite de capacidad, con menor margen dentro del triángulo de estabilidad" />
+      </figure>
+
+      <div class="ova-acordeon" data-reveal style="margin-top:32px;">
+        <div class="ova-acordeon__item is-open">
+          <button class="ova-acordeon__head"><span><span class="num">01</span> <strong>Carga estándar</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Una carga estándar, correctamente apilada y dentro de los límites de peso del equipo, representa el escenario más controlado. Sin embargo, requiere transportarse a baja altura y con el mástil inclinado ligeramente hacia atrás, para evitar que se deslice durante el trayecto. Es crucial recordar que el “peso permitido” no es un valor fijo: la placa de capacidad lo define en función de un centro de carga estándar, habitualmente a 500 milímetros desde el respaldo de las horquillas. Si la carga es más larga o está descentrada, su centro de gravedad se desplazará más allá de esta distancia (500 milímetros), reduciendo la capacidad real del montacargas de forma proporcional, incluso si el peso total no ha variado.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">02</span> <strong>Carga frágil</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">El manejo de mercancía frágil exige una conducción de máxima suavidad basada en aceleraciones y frenados progresivos, giros amplios y una velocidad reducida. Un movimiento brusco que no afectaría a un material resistente puede romper o derribar una carga frágil. En estos casos, el riesgo no es solo la pérdida de estabilidad del montacargas, sino el daño directo al producto, por la inercia del movimiento.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">03</span> <strong>Carga pesada</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Cuando la carga se aproxima al límite de capacidad del equipo, el margen de seguridad dentro del triángulo de estabilidad disminuye drásticamente, incluso si se transporta de manera correcta. Bajo estas condiciones, el operador tiene un margen de error mínimo: un giro cerrado o un frenado imprevisto pueden provocar un vuelco inmediato. Por esta razón, la velocidad de tránsito y la altura de las horquillas deben ser estrictamente conservadoras, mucho menores que las empleadas con una carga estándar.</div></div>
+        </div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">La siguiente tabla nos presenta una forma rápida de comprender los riesgos de los diferentes tipos de carga y cómo se controlan:</p>
+      <div class="ova-tabla" data-reveal>
+        <table>
+          <thead>
+            <tr>
+              <th>Tipo de carga</th>
+              <th>Riesgo principal</th>
+              <th class="is-highlight">Cómo se controla</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Carga estándar</td>
+              <td>Deslizamiento hacia adelante si no se transporta baja e inclinada.</td>
+              <td>Transportar baja, con el mástil inclinado ligeramente hacia atrás.</td>
+            </tr>
+            <tr>
+              <td>Carga frágil</td>
+              <td>Daño o caída por movimientos bruscos, aunque el equipo esté estable.</td>
+              <td>Aceleración y frenado progresivos, giros amplios, velocidad reducida.</td>
+            </tr>
+            <tr>
+              <td>Carga pesada</td>
+              <td>Menor margen de estabilidad ante cualquier giro o frenado.</td>
+              <td>Velocidad y altura de transporte más conservadoras que con carga estándar.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">El vuelco de un montacargas casi nunca depende de un solo factor extremo. Depende de combinar varios factores moderados, carga alta, giro cerrado, frenado brusco, al mismo tiempo.</p></div>
+      </div>
+      <div class="ova-callout ova-callout--success" style="margin-top:14px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:check-circle-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Buena práctica</span><p style="margin:8px 0 0;">Ajustar la velocidad y el estilo de conducción, según el tipo y la altura de la carga en cada viaje, evitando mantener un manejo uniforme ante condiciones variables. Adaptar el manejo es clave para garantizar la seguridad.</p></div>
+      </div>

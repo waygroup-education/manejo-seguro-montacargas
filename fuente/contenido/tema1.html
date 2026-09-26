@@ -1,0 +1,196 @@
+      <header class="ova-screen__head" data-reveal>
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Antes de subirte al montacargas</h1>
+      </header>
+
+      <div data-reveal style="margin-bottom:40px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg); position:relative; overflow:hidden;">
+        <h3 style="font-family:var(--font-mono); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--c-acento); margin:0 0 16px; display:flex; align-items:center; gap:10px;"><iconify-icon icon="mdi:comment-question-outline" style="font-size:1.1rem;"></iconify-icon> Situación de partida</h3>
+        <p style="margin:0; font-size:1.02rem; line-height:1.6;">Un operario con licencia de conducción vigente para automóviles, pero sin certificación como operador de montacargas, se sube al equipo porque “ya sabe manejar” y el operador titular está de descanso. Antes de arrancar, el supervisor lo baja del equipo. Detente un segundo antes de continuar: ¿por qué lo bajó, si la persona sabe conducir? Saber conducir un carro no equivale a saber operar un montacargas. Son máquinas con una lógica de estabilidad completamente distinta, y eso es justo lo que vas a entender en este tema. A medida que avancemos, descubrirás por qué esta diferencia es tan importante.</p>
+      </div>
+
+      <!-- Ilustración de apertura (agente ilustrador, guion en insumos/ILUSTRACIONES.md · tema1). Capa editorial. -->
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <picture>
+          <source media="(max-width: 600px)" srcset="assets/img/curso/ilustracion-reparto-peso-movil.svg" />
+          <img src="assets/img/curso/ilustracion-reparto-peso.svg" alt="Un carro y un montacargas de perfil. Sobre el carro, el peso cae parejo a lo largo de todo el vehículo, de una rueda a la otra. Sobre el montacargas, el peso se concentra en dos puntos: adelante, en la carga sobre las horquillas, y atrás, en el contrapeso." />
+        </picture>
+      </figure>
+
+      <!-- ════ Sección {{NUM}}.1 · normatividad ════ -->
+      <section class="ova-seccion" id="normatividad" data-reveal>
+        <h2 class="ova-seccion__titulo">La normatividad del montacargas en Colombia, explicada de forma simple</h2>
+        <p class="ova-seccion__lead">En Colombia, las normas que protegen a los trabajadores funcionan como una pirámide:</p>
+      </section>
+
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <img src="assets/img/curso/figura-01-piramide-normativa.webp" alt="Pirámide normativa del montacargas, de lo más general a lo más concreto: Ley (Ley 9 de 1979 y Ley 1562 de 2012); Decreto y Resolución (Decreto 1072 de 2015, Resolución 0312 de 2019 y Resolución 2400 de 1979, Título X); Normas técnicas colombianas del ICONTEC (NTC 4502 y NTC 4503)" />
+      </figure>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:lightbulb-on"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Ten en cuenta</span><p style="margin:8px 0 0;">El Código Sustantivo del Trabajo establece las obligaciones generales del empleador en seguridad industrial (artículos 56-57 y 348-352), y la Resolución 2400 de 1979 del Ministerio del Trabajo, en el Título X (“Del manejo y transporte mecánico de materiales”, artículos 398-447) regula específicamente equipos de izaje y transporte mecánico como el montacargas, de forma más puntual que la Ley 9 de 1979 o la Ley 1562 de 2012.</p></div>
+      </div>
+      <p data-reveal style="margin-top:24px;">Como referencia técnica complementaria de origen internacional, la norma ANSI/ITSDF B56.1 detalla las prácticas operativas de seguridad, como conducir, manejar la carga y reportar condiciones inseguras, que sirven de base para buena parte de las instrucciones prácticas de este curso.</p>
+      <p data-reveal>A esto se suma el estándar de competencia laboral del SENA para operación de montacargas, que certifica formalmente las habilidades del operador, y la guía GTC 45 del ICONTEC, la misma que se usa en el resto del SG-SST, para identificar y valorar los peligros de la operación.</p>
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Debido a que Colombia no dispone de una regulación única y exclusiva para montacargas, el sector empresarial acostumbra adoptar la norma internacional OSHA 29 CFR 1910.178 como el estándar de referencia técnica para sus buenas prácticas y procedimientos internos. En esencia, el principio fundamental es estricto: la operación de estos equipos requiere obligatoriamente de una formación técnica certificada y el cumplimiento de rigurosos requisitos de seguridad. Para esta labor, la experiencia de conducción general o la buena disposición del operario son totalmente insuficientes.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.2 · que-es-montacargas ════ -->
+      <section class="ova-seccion" id="que-es-montacargas" data-reveal>
+        <h2 class="ova-seccion__titulo">Qué es un montacargas y qué lo hace diferente a otros vehículos</h2>
+      </section>
+
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <img src="assets/img/curso/figura-02-montacargas.webp" alt="Montacargas con mástil, horquillas frontales, cabina y contrapeso trasero" />
+      </figure>
+      <!-- El DI: "Modal: Montacargas" -->
+      <div data-reveal style="text-align:center; margin-top:16px;"><button class="ova-btn ova-btn--outline" data-ova-modal-open="modal-montacargas"><iconify-icon icon="mdi:forklift"></iconify-icon> Montacargas</button></div>
+      <div class="ova-modal" id="modal-montacargas"><div class="ova-modal__dialog">
+        <div class="ova-modal__head"><h3>Montacargas</h3><button class="ova-modal__close" data-ova-modal-close><iconify-icon icon="mdi:close"></iconify-icon></button></div>
+        <div class="ova-modal__body"><p>Un montacargas es un equipo de izaje diseñado para elevar, transportar y apilar cargas, mediante horquillas frontales.</p></div>
+        <div class="ova-modal__foot"><button class="ova-btn ova-btn--outline" data-ova-modal-close>Cerrar</button></div>
+      </div></div>
+
+      <p data-reveal style="margin-top:32px;">Aunque a simple vista se conduce como un automóvil, su principio físico es completamente diferente. Mientras que en un carro el peso se distribuye de manera uniforme entre las cuatro ruedas, en un montacargas la carga se concentra en la parte delantera, equilibrándose gracias a un contrapeso situado en la zona posterior.</p>
+      <p data-reveal>Este diseño da origen al triángulo de estabilidad: una figura geométrica imaginaria delimitada por las dos ruedas delanteras y el punto central del eje trasero. El equipo se mantendrá estable siempre que el centro de gravedad combinado, del montacargas y su carga, permanezca dentro de este triángulo. Si este centro de gravedad se desplaza fuera de los límites debido a una carga excesivamente alta, un giro brusco o un frenado repentino, el riesgo de volcarse es inminente.</p>
+
+      <!-- PENDIENTE: Figura 3 · Triángulo de estabilidad de un montacargas. Detenida por error de origen
+           (ERRORES-ORIGEN-2026-09-24 · F2). Llega corregida como Imagen 3 → figura-03-triangulo-estabilidad.webp,
+           ova-figura--plana. No se dibuja nada propio en su lugar (regla 8). -->
+      <div data-reveal style="margin-top:16px; padding:48px 24px; border:1px dashed var(--border-c); background:var(--bg-muted); border-radius:var(--r-lg); display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center;">
+        <iconify-icon icon="mdi:image-off-outline" style="font-size:2.4rem; color:var(--text-mut);"></iconify-icon>
+        <span style="color:var(--text-mut); font-size:.9rem;">Pendiente: Figura 3 · Triángulo de estabilidad de un montacargas</span>
+      </div>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Un montacargas no es solo una máquina genérica. La normativa internacional (OSHA) los divide en siete clases diferentes, según su diseño y fuente de energía, abarcando desde equipos eléctricos con contrapeso hasta vehículos todoterreno. Debido a que cada clase posee controles, puntos ciegos y dinámicas de estabilidad particulares, la certificación de un operador es válida únicamente para el tipo de equipo en el que fue evaluado.</p></div>
+      </div>
+      <p data-reveal style="margin-top:24px;">Esta particularidad es la razón por la cual operar un montacargas exige una formación técnica especializada. Conducir no se limita a acelerar, frenar o girar; requiere comprender con precisión cómo interactúan el peso, la velocidad y la altura de la carga para alterar el centro de gravedad del equipo. Estas variables esenciales de seguridad van mucho más allá de lo que se enseña en cualquier curso general de conducción.</p>
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:head-question-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Dato curioso</span><p style="margin:8px 0 0;">El vuelco es el peligro más grave asociado a un montacargas, y no hace falta un golpe ni una carga extrema para que ocurra: un giro un poco más cerrado de lo normal, con la carga un poco más alta de lo debido, es suficiente para sacar el centro de gravedad del triángulo de estabilidad. En el Tema 2 vas a conocer la cifra exacta de cuántas muertes asociadas a montacargas se deben a esta causa.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.3 · roles ════ -->
+      <section class="ova-seccion" id="roles" data-reveal>
+        <h2 class="ova-seccion__titulo">Quién es quién: los responsables en el manejo de montacargas</h2>
+        <p class="ova-seccion__lead">La norma exige que, detrás de la operación de un montacargas, existan personas concretas con funciones definidas:</p>
+      </section>
+
+      <div class="ova-acordeon" data-reveal style="margin-top:0;">
+        <div class="ova-acordeon__item is-open">
+          <button class="ova-acordeon__head"><span><span class="num">01</span> <strong>El operador certificado</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Es el único profesional autorizado para conducir el equipo. Cuenta con la formación técnica y la certificación de competencia laboral exigidas, por lo que ninguna otra persona del área está facultada para operarlo, aun sabiendo conducir vehículos convencionales.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">02</span> <strong>El supervisor de la operación</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Coordina las actividades en el área de trabajo y valida que el equipo haya aprobado la inspección preoperacional. Tiene la autoridad regulatoria para detener la operación de inmediato, si detecta alguna anomalía o riesgo implícito.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">03</span> <strong>El personal de bodega y peatones</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Cumplen un rol activo y una responsabilidad compartida en la seguridad del área. Su deber es respetar estrictamente las zonas señalizadas, mantenerse fuera del radio de giro del montacargas y atender permanentemente las alarmas sonoras y visuales del operador.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">04</span> <strong>El responsable de mantenimiento</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Asegura que el equipo reciba las revisiones periódicas, preventivas y correctivas exigidas tanto por el fabricante como por las normas técnicas vigentes, garantizando su óptimo funcionamiento.</div></div>
+        </div>
+      </div>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">La certificación de operador de montacargas es obligatoria, personal e intransferible para ese equipo. Por lo tanto, no puede ser sustituida por una licencia de conducción general ni por la experiencia informal del colaborador.</p></div>
+      </div>
+
+      <!-- Cierre del caso de partida · mismo panel que la Situación de partida, sin rótulo (el DI no lo trae) -->
+      <div data-reveal style="margin-top:32px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg); position:relative; overflow:hidden;">
+        <p style="margin:0; font-size:1.02rem; line-height:1.6;">Volviendo al caso de partida: saber conducir un carro no autoriza a nadie a operar un montacargas, y por eso el supervisor bajó al operario del equipo.</p>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">La siguiente tabla resume las funciones principales de cada rol, de forma sencilla:</p>
+      <div class="ova-tabla" data-reveal>
+        <table>
+          <thead>
+            <tr>
+              <th>Rol</th>
+              <th class="is-highlight">Qué hace</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Operador certificado</td>
+              <td>Tiene la formación técnica y la certificación de competencia laboral para conducir el equipo; es el único autorizado para hacerlo.</td>
+            </tr>
+            <tr>
+              <td>Supervisor de la operación</td>
+              <td>Coordina el trabajo en el área, verifica la inspección preoperacional, y tiene autoridad para detener la operación.</td>
+            </tr>
+            <tr>
+              <td>Personal de bodega / peatones</td>
+              <td>Respetan las zonas señalizadas, se mantienen fuera del radio de giro, y atienden las señales sonoras y visuales.</td>
+            </tr>
+            <tr>
+              <td>Responsable de mantenimiento</td>
+              <td>Encargado de que el equipo reciba las revisiones periódicas que exige el fabricante y la norma técnica.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.4 · inspeccion ════ -->
+      <section class="ova-seccion" id="inspeccion" data-reveal>
+        <h2 class="ova-seccion__titulo">La inspección preoperacional: qué se revisa antes de encender</h2>
+        <p class="ova-seccion__lead">Te invitamos a ver el siguiente video, el cual muestra cómo hacer la inspección preoperacional del montacargas antes de cada turno.</p>
+      </section>
+
+      <!-- Video 2 (el DI: "(Vincular video 2)."). URL de la planilla de videos del cliente, 2026-09-24 -->
+      <div class="ova-video" data-reveal>
+        <div class="ova-video__frame" style="position:relative; padding-top:56.25%; border-radius:var(--r-lg); overflow:hidden; background:#000;">
+          <iframe src="https://www.youtube.com/embed/7spGPiCHQ5I" title="Video 2 · Inspección preoperacional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute; inset:0; width:100%; height:100%;"></iframe>
+        </div>
+      </div>
+
+      <div class="ova-callout ova-callout--success" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:check-circle-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Buena práctica</span><p style="margin:8px 0 0;">Sin excepción alguna por urgencias, antes de iniciar cada turno se debe verificar la certificación vigente del operador y registrar la inspección preoperacional en el formato firmado correspondiente.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.5 · epp ════ -->
+      <section class="ova-seccion" id="epp" data-reveal>
+        <h2 class="ova-seccion__titulo">Elementos de protección personal para el operador</h2>
+      </section>
+
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <img src="assets/img/curso/figura-04-epp-operacion.webp" alt="Elementos de protección personal en la operación de montacargas: casco de seguridad, gafas de seguridad, calzado de seguridad, chaleco reflectivo y cinturón de seguridad del montacargas, con la función de cada uno" />
+      </figure>
+
+      <p data-reveal style="margin-top:32px;">De acuerdo con la norma ANSI/ISEA 107, los chalecos reflectivos se clasifican en tres clases, según el nivel de riesgo y las condiciones del entorno laboral:</p>
+      <div class="ova-carrusel" data-reveal style="margin-top:16px;">
+        <div class="ova-carrusel__track-wrap"><div class="ova-carrusel__track">
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:warehouse" style="font-size:2.4rem; color:var(--c-acento);"></iconify-icon><h4 style="margin-top:12px;">Clase 1 (Riesgo mínimo)</h4><p style="color:var(--text-mut); font-size:.9rem;">Cuenta con la menor cantidad de material retrorreflectante. Está diseñado para entornos controlados, como la operación de montacargas en el interior de bodegas cerradas.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:weather-night" style="font-size:2.4rem; color:var(--c-acento);"></iconify-icon><h4 style="margin-top:12px;">Clase 2 (Riesgo moderado)</h4><p style="color:var(--text-mut); font-size:.9rem;">Se utiliza en áreas con mayor tránsito vehicular o condiciones de iluminación reducida, donde el personal requiere una visibilidad moderada para realizar sus tareas de forma segura.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:truck-alert-outline" style="font-size:2.4rem; color:var(--c-acento);"></iconify-icon><h4 style="margin-top:12px;">Clase 3 (Riesgo alto)</h4><p style="color:var(--text-mut); font-size:.9rem;">Incorpora bandas reflectivas en todo el contorno del cuerpo y las extremidades. Su uso es obligatorio en patios exteriores, zonas de tráfico pesado o áreas de alta peligrosidad.</p></div>
+        </div></div>
+        <div class="ova-carrusel__nav"><div class="ova-carrusel__dots"></div><div class="ova-carrusel__arrows"><button class="ova-carrusel__arrow" data-ova-carrusel-prev><iconify-icon icon="mdi:arrow-left"></iconify-icon></button><button class="ova-carrusel__arrow" data-ova-carrusel-next><iconify-icon icon="mdi:arrow-right"></iconify-icon></button></div></div>
+      </div>
+
+      <figure class="ova-figura ova-figura--plana" data-reveal style="margin-top:40px;">
+        <img src="assets/img/curso/figura-05-calzado-seguridad.webp" alt="Calzado de seguridad con puntera reforzada frente a dos riesgos: el impacto de un objeto que cae y la compresión de una carga apoyada sobre el pie" />
+      </figure>
+      <p data-reveal style="margin-top:24px;">Por su parte, el calzado de seguridad se certifica bajo la norma ASTM F2413, la cual exige una puntera capaz de resistir tanto el impacto de objetos en caída, como la compresión de cargas estáticas. Un calzado que solo mitigue el impacto, pero no la compresión, carece de la protección completa necesaria contra los dos riesgos de lesión más frecuentes en la operación de montacargas.</p>
+      <p data-reveal>Cuando la tarea lo exige, como al manipular cargas que puedan generar proyección de partículas, se suman gafas de seguridad con protección lateral, que resguardan los ojos frente a ese riesgo específico.</p>
+
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:lightbulb-on"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Ten en cuenta</span><p style="margin:8px 0 0;">Ninguno de estos elementos de protección personal (EPP) sustituye a otro. El casco no reemplaza al cinturón de seguridad, ni este al calzado de protección. Cada elemento está diseñado para mitigar un riesgo específico; por lo tanto, su uso debe ser simultáneo y obligatorio durante toda la operación, sin importar que el trayecto dure un solo minuto.</p></div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">Recuerda:</p>
+      <!-- PENDIENTE: tabla EPP «Elementos de protección personal para una operación más segura» (Imagenes/Imagen 12).
+           Detenida: falta la versión del diseñador (ERRORES-ORIGEN-2026-09-24 · F1). No se dibuja nada propio (regla 8). -->
+      <div data-reveal style="margin-top:8px; padding:48px 24px; border:1px dashed var(--border-c); background:var(--bg-muted); border-radius:var(--r-lg); display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center;">
+        <iconify-icon icon="mdi:image-off-outline" style="font-size:2.4rem; color:var(--text-mut);"></iconify-icon>
+        <span style="color:var(--text-mut); font-size:.9rem;">Pendiente: Elementos de protección personal para una operación más segura</span>
+      </div>
