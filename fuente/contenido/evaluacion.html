@@ -3,17 +3,22 @@
         <h1 class="ova-screen__title">Evaluación</h1>
       </header>
 
-      <!-- Evaluación estándar: sin cabecera superior; el tema va dentro de cada actividad;
+      <!-- Evaluación estándar Waygroup: sin cabecera superior; el tema va dentro de cada actividad;
            la franja inferior lleva anterior · progreso · contador · siguiente.
-           Enunciados, opciones y respuesta correcta: literales del documento de evaluación. -->
+           Contexto, enunciado, opciones, respuesta correcta y retroalimentación: literales de
+           insumos/Banco_Preguntas_Manejo_Seguro_Montacargas.docx, en su orden (Pregunta 1 a 10).
+           La etiqueta de cada actividad es la «Referencia» del banco. El banco trae una sola
+           retroalimentación por ítem: va en `data-correct` y en `data-wrong`. Detalle: insumos/MAPA-EVALUACION.md. -->
       <div class="ova-evalquiz" data-ova-evalquiz data-label-item="Actividad" data-label-items="actividades" data-reveal>
 
         <div class="ova-evalquiz__slide is-active" data-slide="intro">
           <div class="ova-eval__cuerpo">
-            <p class="ova-eval__lead">Dos actividades de ejemplo. Sin nota ni tiempo límite; puedes repetirla las veces que quieras.</p>
+            <p class="ova-eval__lead">Diez casos sobre lo que trabajaste en el curso: quién puede operar el montacargas, los
+              peligros y la prevención del vuelco, la operación segura en la bodega y qué hacer si algo sale mal.
+              Sin nota ni tiempo límite; puedes repetirla las veces que quieras.</p>
             <div class="ova-eval__datos">
-              <div class="ova-eval__dato"><span class="v">2</span><span class="l">actividades</span></div>
-              <div class="ova-eval__dato"><span class="v">2</span><span class="l">tipos: selección múltiple y emparejamiento</span></div>
+              <div class="ova-eval__dato"><span class="v">10</span><span class="l">actividades</span></div>
+              <div class="ova-eval__dato"><span class="v">1</span><span class="l">tipo: selección única</span></div>
               <div class="ova-eval__dato"><span class="v"><iconify-icon icon="mdi:message-reply-text-outline"></iconify-icon></span><span class="l">retroalimentación en cada respuesta, aciertes o no</span></div>
             </div>
             <button class="ova-evalquiz__btn ova-evalquiz__btn--primary" data-evalquiz-go="1">Comenzar <iconify-icon icon="mdi:arrow-right"></iconify-icon></button>
@@ -21,38 +26,193 @@
           </div>
         </div>
 
-        <div class="ova-evalquiz__slide" data-slide="sm-1" data-section="Selección múltiple" data-section-color="acento">
+        <!-- ============== ACTIVIDAD 1 · banco Pregunta 1 · Tema 1.3 · Autorización del operador ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-1" data-section="Selección única" data-section-color="acento">
           <div class="ova-eval__cuerpo">
-            <span class="ova-eval__tema">Tema 1 — Título del tema</span>
+            <span class="ova-eval__tema">Tema 1.3</span>
             <div class="ova-quiz">
-              <p class="ova-eval__contexto">Contexto o caso de la pregunta, literal del documento de evaluación.</p>
-              <h3 class="ova-quiz__question">¿Enunciado de la pregunta?</h3>
+              <p class="ova-eval__contexto">En un centro de distribución, el operador titular sale a su descanso y un auxiliar de bodega se ofrece a cubrir un despacho urgente con el montacargas. Tiene licencia de conducción vigente para automóviles y cinco años de experiencia conduciendo vehículos de reparto. El supervisor debe decidir en pocos minutos.</p>
+              <h3 class="ova-quiz__question">¿Cuál es la decisión más adecuada del supervisor frente a esta situación?</h3>
               <div class="ova-quiz__opts">
-                <button class="ova-quiz__opt" data-correct="true"><strong>A.</strong> Opción correcta.</button>
-                <button class="ova-quiz__opt" data-correct="false"><strong>B.</strong> Opción incorrecta.</button>
-                <button class="ova-quiz__opt" data-correct="false"><strong>C.</strong> Opción incorrecta.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>A.</strong> Autorizar al auxiliar porque su licencia vigente acredita experiencia en conducción vehicular.</button>
+                <button class="ova-quiz__opt" data-correct="true"><strong>B.</strong> Asignar el despacho a un operador certificado para ese tipo de equipo.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>C.</strong> Permitir la maniobra con acompañamiento verbal y permanente del supervisor del área.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>D.</strong> Aprobar la operación limitada a trayectos cortos dentro de la misma bodega.</button>
               </div>
               <div class="ova-quiz__feedback"
-                   data-correct="Por qué esta opción es la indicada, explicado con el contenido del curso."
-                   data-wrong="Qué revisar y en qué tema está, sin dar la respuesta de forma seca."></div>
+                   data-correct="La certificación de competencia laboral es obligatoria, personal e intransferible para el tipo de equipo en el que el operador fue evaluado. Ni la licencia de conducción general ni la experiencia informal pueden reemplazarla, porque el montacargas funciona con una lógica de estabilidad distinta a la del automóvil: concentra la carga en la parte delantera y la equilibra con un contrapeso posterior. Por eso el supervisor, en ejercicio de su autoridad, asigna la tarea a un operador certificado aunque el despacho sea urgente."
+                   data-wrong="La certificación de competencia laboral es obligatoria, personal e intransferible para el tipo de equipo en el que el operador fue evaluado. Ni la licencia de conducción general ni la experiencia informal pueden reemplazarla, porque el montacargas funciona con una lógica de estabilidad distinta a la del automóvil: concentra la carga en la parte delantera y la equilibra con un contrapeso posterior. Por eso el supervisor, en ejercicio de su autoridad, asigna la tarea a un operador certificado aunque el despacho sea urgente."></div>
             </div>
           </div>
         </div>
-
-        <div class="ova-evalquiz__slide" data-slide="emp-1" data-section="Emparejamiento" data-section-color="info">
+        <!-- ============== ACTIVIDAD 2 · banco Pregunta 2 · Tema 1.2 · Alcance de la certificación ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-2" data-section="Selección única" data-section-color="acento">
           <div class="ova-eval__cuerpo">
-            <span class="ova-eval__tema">Tema 1 — Título del tema</span>
-            <h3 class="ova-quiz__question">Relaciona cada concepto con su definición</h3>
-            <p class="ova-eval__instruccion">Toca un concepto y después su definición.</p>
-            <div class="ova-empar">
-              <div class="ova-empar__col">
-                <button class="ova-empar__item" data-ova-match="A">Concepto uno</button>
-                <button class="ova-empar__item" data-ova-match="B">Concepto dos</button>
+            <span class="ova-eval__tema">Tema 1.2</span>
+            <div class="ova-quiz">
+              <p class="ova-eval__contexto">Una empresa adquiere un montacargas todoterreno para su patio exterior. El jefe de logística asigna para operarlo, desde el primer día, a un operador con certificación vigente obtenida en un montacargas eléctrico con contrapeso de uso interior.</p>
+              <h3 class="ova-quiz__question">¿Qué acción corresponde antes de iniciar la operación del nuevo equipo?</h3>
+              <div class="ova-quiz__opts">
+                <button class="ova-quiz__opt" data-correct="false"><strong>A.</strong> Autorizar la operación con base en la certificación eléctrica vigente del operador.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>B.</strong> Realizar una prueba informal de conducción supervisada en el nuevo patio exterior.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>C.</strong> Entregar el manual del fabricante para su lectura durante el primer turno.</button>
+                <button class="ova-quiz__opt" data-correct="true"><strong>D.</strong> Formar y certificar al operador en la clase de equipo todoterreno asignado.</button>
               </div>
-              <div class="ova-empar__col">
-                <button class="ova-empar__item" data-ova-match="B">Definición del concepto dos.</button>
-                <button class="ova-empar__item" data-ova-match="A">Definición del concepto uno.</button>
+              <div class="ova-quiz__feedback"
+                   data-correct="La normativa OSHA clasifica los montacargas en siete clases según su diseño y fuente de energía, y cada clase tiene controles, puntos ciegos y dinámicas de estabilidad propios. La certificación solo es válida para el tipo de equipo en el que se evaluó al operador, así que operar un equipo todoterreno exige formación y certificación específicas en esa clase. Una prueba informal o la lectura del manual no reemplazan esa certificación."
+                   data-wrong="La normativa OSHA clasifica los montacargas en siete clases según su diseño y fuente de energía, y cada clase tiene controles, puntos ciegos y dinámicas de estabilidad propios. La certificación solo es válida para el tipo de equipo en el que se evaluó al operador, así que operar un equipo todoterreno exige formación y certificación específicas en esa clase. Una prueba informal o la lectura del manual no reemplazan esa certificación."></div>
+            </div>
+          </div>
+        </div>
+        <!-- ============== ACTIVIDAD 3 · banco Pregunta 3 · Tema 2.1 · Valoración con GTC 45 ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-3" data-section="Selección única" data-section-color="acento">
+          <div class="ova-eval__cuerpo">
+            <span class="ova-eval__tema">Tema 2.1</span>
+            <div class="ova-quiz">
+              <p class="ova-eval__contexto">Durante una valoración con la GTC 45, el equipo del SG-SST analiza dos escenarios del mismo montacargas: estacionado y apagado al final del turno, y girando a alta velocidad con una carga elevada. Un integrante propone asignar el mismo nivel de riesgo a ambos escenarios porque se trata del mismo equipo.</p>
+              <h3 class="ova-quiz__question">¿Qué análisis técnico resulta correcto para esta valoración?</h3>
+              <div class="ova-quiz__opts">
+                <button class="ova-quiz__opt" data-correct="true"><strong>A.</strong> El peligro permanece igual y el riesgo aumenta en el escenario de giro.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>B.</strong> El peligro y el riesgo aumentan en la misma proporción durante el giro.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>C.</strong> El riesgo permanece igual y el peligro aumenta en el escenario de giro.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>D.</strong> El peligro desaparece cuando el equipo permanece estacionado, apagado y asegurado en bodega.</button>
               </div>
+              <div class="ova-quiz__feedback"
+                   data-correct="El peligro es la condición del equipo capaz de causar daño, como su peso o la variabilidad de su centro de gravedad, y existe aunque el montacargas esté apagado o sin operador. El riesgo combina la probabilidad de que ese peligro se materialice con la gravedad de sus consecuencias. En los dos escenarios el peligro es el mismo, pero el riesgo cambia por completo cuando el equipo gira a alta velocidad con carga elevada, y la valoración debe reflejar esa diferencia."
+                   data-wrong="El peligro es la condición del equipo capaz de causar daño, como su peso o la variabilidad de su centro de gravedad, y existe aunque el montacargas esté apagado o sin operador. El riesgo combina la probabilidad de que ese peligro se materialice con la gravedad de sus consecuencias. En los dos escenarios el peligro es el mismo, pero el riesgo cambia por completo cuando el equipo gira a alta velocidad con carga elevada, y la valoración debe reflejar esa diferencia."></div>
+            </div>
+          </div>
+        </div>
+        <!-- ============== ACTIVIDAD 4 · banco Pregunta 4 · Tema 2.2 · Efecto combinado de los factores ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-4" data-section="Selección única" data-section-color="acento">
+          <div class="ova-eval__cuerpo">
+            <span class="ova-eval__tema">Tema 2.2</span>
+            <div class="ova-quiz">
+              <p class="ova-eval__contexto">Un operador debe cruzar la bodega con una carga más alta de lo habitual, aunque dentro de la capacidad nominal. Conoce la ruta y ha tomado la misma curva muchas veces a velocidad normal sin incidentes.</p>
+              <h3 class="ova-quiz__question">¿Qué decisión de conducción responde mejor al análisis de estabilidad?</h3>
+              <div class="ova-quiz__opts">
+                <button class="ova-quiz__opt" data-correct="false"><strong>A.</strong> Mantener la velocidad habitual, ya que la carga está dentro de capacidad.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>B.</strong> Aumentar ligeramente la velocidad para completar la curva en el menor tiempo.</button>
+                <button class="ova-quiz__opt" data-correct="true"><strong>C.</strong> Reducir la velocidad proporcionalmente y trazar la curva con un giro amplio.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>D.</strong> Frenar con firmeza al iniciar la curva para recuperar el control total.</button>
+              </div>
+              <div class="ova-quiz__feedback"
+                   data-correct="Los vuelcos rara vez obedecen a una sola causa extrema: resultan de sumar factores moderados como la carga alta, el giro cerrado y el frenado brusco. Una carga más alta eleva el centro de gravedad y reduce el margen dentro del triángulo de estabilidad. Por eso el enfoque preventivo pide bajar la velocidad en proporción a la altura de la carga y evitar giros cerrados. Que la maniobra haya salido bien antes no la hace segura."
+                   data-wrong="Los vuelcos rara vez obedecen a una sola causa extrema: resultan de sumar factores moderados como la carga alta, el giro cerrado y el frenado brusco. Una carga más alta eleva el centro de gravedad y reduce el margen dentro del triángulo de estabilidad. Por eso el enfoque preventivo pide bajar la velocidad en proporción a la altura de la carga y evitar giros cerrados. Que la maniobra haya salido bien antes no la hace segura."></div>
+            </div>
+          </div>
+        </div>
+        <!-- ============== ACTIVIDAD 5 · banco Pregunta 5 · Tema 2.4 · Centro de carga y capacidad real ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-5" data-section="Selección única" data-section-color="acento">
+          <div class="ova-eval__cuerpo">
+            <span class="ova-eval__tema">Tema 2.4</span>
+            <div class="ova-quiz">
+              <p class="ova-eval__contexto">Se requiere trasladar una estructura metálica larga cuyo peso es inferior al indicado en la placa de capacidad. Por su longitud, su centro de gravedad queda aproximadamente a 800 mm del respaldo de las horquillas.</p>
+              <h3 class="ova-quiz__question">¿Cuál es la interpretación técnica correcta antes de levantar la carga?</h3>
+              <div class="ova-quiz__opts">
+                <button class="ova-quiz__opt" data-correct="true"><strong>A.</strong> La capacidad real disminuye y debe contrastarse con la placa del equipo.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>B.</strong> La capacidad real se conserva porque el peso está dentro del límite.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>C.</strong> La capacidad real aumenta al distribuirse el peso en una mayor longitud.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>D.</strong> La capacidad real depende principalmente de la velocidad prevista para el desplazamiento.</button>
+              </div>
+              <div class="ova-quiz__feedback"
+                   data-correct="El peso permitido no es un valor fijo. La placa de capacidad lo define para un centro de carga estándar, normalmente a 500 mm del respaldo de las horquillas. Si la carga es más larga o está descentrada, su centro de gravedad supera esa distancia y la capacidad real baja proporcionalmente, aunque el peso total no cambie. Por eso es obligatorio verificar la placa antes de levantar una carga no convencional."
+                   data-wrong="El peso permitido no es un valor fijo. La placa de capacidad lo define para un centro de carga estándar, normalmente a 500 mm del respaldo de las horquillas. Si la carga es más larga o está descentrada, su centro de gravedad supera esa distancia y la capacidad real baja proporcionalmente, aunque el peso total no cambie. Por eso es obligatorio verificar la placa antes de levantar una carga no convencional."></div>
+            </div>
+          </div>
+        </div>
+        <!-- ============== ACTIVIDAD 6 · banco Pregunta 6 · Temas 3.1 y 3.4 · Falla crítica en la inspección ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-6" data-section="Selección única" data-section-color="acento">
+          <div class="ova-eval__cuerpo">
+            <span class="ova-eval__tema">Temas 3.1 y 3.4</span>
+            <div class="ova-quiz">
+              <p class="ova-eval__contexto">Durante la inspección preoperacional, un operador certificado detecta que la alarma de reversa no funciona. El turno tiene alta demanda y solo se requieren viajes cortos en una zona con poco tránsito peatonal, por lo que el operador propone trabajar y reportar la falla al cierre.</p>
+              <h3 class="ova-quiz__question">¿Cuál es la decisión correcta del supervisor de la operación?</h3>
+              <div class="ova-quiz__opts">
+                <button class="ova-quiz__opt" data-correct="false"><strong>A.</strong> Autorizar los viajes cortos y registrar la falla al cierre del turno.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>B.</strong> Permitir la operación reemplazando la alarma con el uso frecuente del claxon.</button>
+                <button class="ova-quiz__opt" data-correct="true"><strong>C.</strong> Retirar el equipo de servicio hasta corregir la falla detectada en inspección.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>D.</strong> Asignar un señalero en piso para guiar cada una de las reversas.</button>
+              </div>
+              <div class="ova-quiz__feedback"
+                   data-correct="Para autorizar la operación deben cumplirse dos condiciones al mismo tiempo: la certificación vigente del operador y la aprobación de la inspección preoperacional del día. La alarma de reversa es la señal que alerta a los peatones justo cuando la visibilidad del operador es mínima, así que su falla es una falla crítica de seguridad. El supervisor debe retirar el equipo de servicio hasta corregirla; no se trata de compensarla con medidas improvisadas mientras tanto."
+                   data-wrong="Para autorizar la operación deben cumplirse dos condiciones al mismo tiempo: la certificación vigente del operador y la aprobación de la inspección preoperacional del día. La alarma de reversa es la señal que alerta a los peatones justo cuando la visibilidad del operador es mínima, así que su falla es una falla crítica de seguridad. El supervisor debe retirar el equipo de servicio hasta corregirla; no se trata de compensarla con medidas improvisadas mientras tanto."></div>
+            </div>
+          </div>
+        </div>
+        <!-- ============== ACTIVIDAD 7 · banco Pregunta 7 · Tema 1.5 · Selección de EPP según el entorno ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-7" data-section="Selección única" data-section-color="acento">
+          <div class="ova-eval__cuerpo">
+            <span class="ova-eval__tema">Tema 1.5</span>
+            <div class="ova-quiz">
+              <p class="ova-eval__contexto">Un operador es reasignado de una bodega cerrada al patio exterior de cargue, donde hay tráfico de camiones pesados. Se presenta con chaleco reflectivo Clase 1, casco, cinturón de seguridad y calzado con puntera certificada solo contra impacto.</p>
+              <h3 class="ova-quiz__question">¿Qué ajuste de los elementos de protección personal corresponde para el nuevo entorno?</h3>
+              <div class="ova-quiz__opts">
+                <button class="ova-quiz__opt" data-correct="false"><strong>A.</strong> Usar chaleco Clase 1 y reforzar el uso permanente del casco.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>B.</strong> Usar chaleco Clase 2 y conservar el calzado con puntera actual.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>C.</strong> Usar chaleco Clase 1 y cambiar el calzado por uno reforzado.</button>
+                <button class="ova-quiz__opt" data-correct="true"><strong>D.</strong> Usar chaleco Clase 3 y calzado resistente a impacto y compresión.</button>
+              </div>
+              <div class="ova-quiz__feedback"
+                   data-correct="Según la ANSI/ISEA 107, el chaleco Clase 3 es obligatorio en patios exteriores y zonas de tráfico pesado, porque lleva bandas reflectivas en todo el contorno del cuerpo y las extremidades. La ASTM F2413 exige que la puntera del calzado resista tanto el impacto de objetos que caen como la compresión de cargas estáticas. Como ningún EPP sustituye a otro, los dos ajustes deben hacerse al mismo tiempo."
+                   data-wrong="Según la ANSI/ISEA 107, el chaleco Clase 3 es obligatorio en patios exteriores y zonas de tráfico pesado, porque lleva bandas reflectivas en todo el contorno del cuerpo y las extremidades. La ASTM F2413 exige que la puntera del calzado resista tanto el impacto de objetos que caen como la compresión de cargas estáticas. Como ningún EPP sustituye a otro, los dos ajustes deben hacerse al mismo tiempo."></div>
+            </div>
+          </div>
+        </div>
+        <!-- ============== ACTIVIDAD 8 · banco Pregunta 8 · Temas 2.3 y 3.3 · Cruces y prioridad peatonal ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-8" data-section="Selección única" data-section-color="acento">
+          <div class="ova-eval__cuerpo">
+            <span class="ova-eval__tema">Temas 2.3 y 3.3</span>
+            <div class="ova-quiz">
+              <p class="ova-eval__contexto">En una zona de circulación compartida, un operador transporta una carga voluminosa que le reduce la visibilidad frontal. Se aproxima a una intersección entre estanterías altas donde suelen transitar trabajadores de bodega.</p>
+              <h3 class="ova-quiz__question">¿Qué conducta preventiva corresponde al operador al acercarse a la intersección?</h3>
+              <div class="ova-quiz__opts">
+                <button class="ova-quiz__opt" data-correct="false"><strong>A.</strong> Activar el claxon al llegar al cruce y continuar con prioridad vehicular.</button>
+                <button class="ova-quiz__opt" data-correct="true"><strong>B.</strong> Activar el claxon con anticipación, reducir la velocidad y ceder el paso.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>C.</strong> Mantener la velocidad constante y confiar en las luces del montacargas encendidas.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>D.</strong> Acelerar la maniobra para despejar el cruce en el menor tiempo posible.</button>
+              </div>
+              <div class="ova-quiz__feedback"
+                   data-correct="El claxon es una herramienta preventiva, no una reacción de último segundo, y su uso es obligatorio al acercarse a esquinas y cruces con visibilidad limitada. La velocidad debe ajustarse zona por zona y cruce por cruce. En las zonas compartidas los peatones siempre tienen prioridad, y suponer que el montacargas la tiene por ser un equipo pesado es un error que puede terminar en atropello o colisión."
+                   data-wrong="El claxon es una herramienta preventiva, no una reacción de último segundo, y su uso es obligatorio al acercarse a esquinas y cruces con visibilidad limitada. La velocidad debe ajustarse zona por zona y cruce por cruce. En las zonas compartidas los peatones siempre tienen prioridad, y suponer que el montacargas la tiene por ser un equipo pesado es un error que puede terminar en atropello o colisión."></div>
+            </div>
+          </div>
+        </div>
+        <!-- ============== ACTIVIDAD 9 · banco Pregunta 9 · Temas 2.1 y 4.3 · Reacción ante el vuelco ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-9" data-section="Selección única" data-section-color="acento">
+          <div class="ova-eval__cuerpo">
+            <span class="ova-eval__tema">Temas 2.1 y 4.3</span>
+            <div class="ova-quiz">
+              <p class="ova-eval__contexto">Mientras gira con una carga elevada, un operador con el cinturón puesto percibe que el montacargas empieza a inclinarse hacia un costado. Tiene apenas un instante para reaccionar.</p>
+              <h3 class="ova-quiz__question">¿Cuál es la reacción correcta del operador en ese momento?</h3>
+              <div class="ova-quiz__opts">
+                <button class="ova-quiz__opt" data-correct="true"><strong>A.</strong> Sujetarse al volante, apoyar los pies e inclinarse hacia el lado contrario.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>B.</strong> Saltar de la cabina hacia el lado opuesto de la inclinación lateral.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>C.</strong> Soltar el cinturón para facilitar una salida rápida y segura del equipo.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>D.</strong> Girar el volante con fuerza hacia el lado de la inclinación lateral.</button>
+              </div>
+              <div class="ova-quiz__feedback"
+                   data-correct="El instinto natural es saltar, y eso es lo que puede convertir un incidente en una tragedia, porque el operador queda expuesto a ser aplastado por el propio equipo. La guía técnica indica permanecer dentro de la cabina protectora: sujetarse al volante, apoyar los pies con fuerza e inclinarse en dirección contraria al vuelco, con el cinturón puesto. Esta respuesta debe aprenderse antes de operar, porque en ese instante no hay tiempo para improvisarla."
+                   data-wrong="El instinto natural es saltar, y eso es lo que puede convertir un incidente en una tragedia, porque el operador queda expuesto a ser aplastado por el propio equipo. La guía técnica indica permanecer dentro de la cabina protectora: sujetarse al volante, apoyar los pies con fuerza e inclinarse en dirección contraria al vuelco, con el cinturón puesto. Esta respuesta debe aprenderse antes de operar, porque en ese instante no hay tiempo para improvisarla."></div>
+            </div>
+          </div>
+        </div>
+        <!-- ============== ACTIVIDAD 10 · banco Pregunta 10 · Tema 4.2 · Entorno de trabajo inseguro ============== -->
+        <div class="ova-evalquiz__slide" data-slide="su-10" data-section="Selección única" data-section-color="acento">
+          <div class="ova-eval__cuerpo">
+            <span class="ova-eval__tema">Tema 4.2</span>
+            <div class="ova-quiz">
+              <p class="ova-eval__contexto">Al inicio del turno, el operador certificado aprueba la inspección preoperacional, pero identifica en el pasillo principal un derrame de aceite sin señalizar y una zona con iluminación deficiente. El coordinador de despachos pide iniciar de inmediato porque hay camiones esperando.</p>
+              <h3 class="ova-quiz__question">¿Qué decisión corresponde al supervisor de la operación?</h3>
+              <div class="ova-quiz__opts">
+                <button class="ova-quiz__opt" data-correct="false"><strong>A.</strong> Autorizar la operación porque el operador y el equipo cumplen las condiciones.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>B.</strong> Iniciar la operación y reportar las condiciones del pasillo al finalizar turno.</button>
+                <button class="ova-quiz__opt" data-correct="false"><strong>C.</strong> Delegar en el coordinador la decisión según la prioridad de los despachos.</button>
+                <button class="ova-quiz__opt" data-correct="true"><strong>D.</strong> Suspender la operación hasta controlar y señalizar las condiciones inseguras del entorno.</button>
+              </div>
+              <div class="ova-quiz__feedback"
+                   data-correct="Un entorno inseguro es una de las cuatro condiciones que impiden autorizar o continuar la operación, aunque el operador y el equipo cumplan sus requisitos. Los derrames y la iluminación deficiente sin señalizar afectan la estabilidad del piso y la visibilidad. Estas condiciones no se resuelven según el criterio de quien tiene prisa por terminar la tarea: suspender la actividad hasta controlarlas es la decisión que el procedimiento espera del supervisor."
+                   data-wrong="Un entorno inseguro es una de las cuatro condiciones que impiden autorizar o continuar la operación, aunque el operador y el equipo cumplan sus requisitos. Los derrames y la iluminación deficiente sin señalizar afectan la estabilidad del piso y la visibilidad. Estas condiciones no se resuelven según el criterio de quien tiene prisa por terminar la tarea: suspender la actividad hasta controlarlas es la decisión que el procedimiento espera del supervisor."></div>
             </div>
           </div>
         </div>
@@ -60,8 +220,11 @@
         <div class="ova-evalquiz__slide" data-slide="cierre">
           <div class="ova-eval__cuerpo">
             <h2>Evaluación completada</h2>
-            <p style="max-width:60ch;">Repasar las retroalimentaciones vale tanto como acertar.</p>
-            <button class="ova-evalquiz__btn" data-evalquiz-restart style="margin-top:22px;"><iconify-icon icon="mdi:refresh"></iconify-icon> Volver a intentarlo</button>
+            <p style="max-width:60ch;">Repasar las retroalimentaciones vale tanto como acertar: cada una explica
+              por qué una respuesta es la indicada y las otras no. Puedes volver al glosario o repetir la evaluación.</p>
+            <button class="ova-evalquiz__btn" data-evalquiz-restart style="margin-top:22px;">
+              <iconify-icon icon="mdi:refresh"></iconify-icon> Volver a intentarlo
+            </button>
           </div>
         </div>
 

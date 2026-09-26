@@ -54,7 +54,7 @@ module.exports = {
         { titulo: 'Cuándo no se autoriza o se detiene la operación',                 ancla: 'detener-operacion' },
         { titulo: 'Tabla de referencia rápida: qué hacer ante una emergencia',       ancla: 'emergencias' },
       ] },
-    // { id: 'evaluacion', titulo: 'Evaluación',                  tipo: 'especial' },
+    { id: 'evaluacion',   titulo: 'Evaluación',                    tipo: 'especial' },
     { id: 'glosario',     titulo: 'Glosario',                      tipo: 'especial' },
     { id: 'referencias',  titulo: 'Referencias',                   tipo: 'especial' },
   ],
